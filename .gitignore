@@ -4,6 +4,17 @@
 *.o
 *.obj
 
+# KEIL
+*.crf
+*.iex
+*.html
+*.d
+*.uvguix.
+*.uvopt
+*.uvopt.back
+*.uvoptx
+*.uvguix
+
 # Precompiled Headers
 *.gch
 *.pch
