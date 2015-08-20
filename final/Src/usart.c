@@ -38,17 +38,15 @@
 
 #include "gpio.h"
 
-/* USER CODE BEGIN 0 */
 
-/* USER CODE END 0 */
 
 UART_HandleTypeDef huart1;
 UART_HandleTypeDef huart2;
 UART_HandleTypeDef huart3;
 
-/* USART1 init function */
 
-void MX_USART1_UART_Init(void)
+
+void MX_USART1_UART_Init(void)/* USART1 init function */
 {
 
   huart1.Instance = USART1;
@@ -66,7 +64,7 @@ void MX_USART1_UART_Init(void)
   HAL_UART_Init(&huart1);
 
 }
-/* USART2 init function */
+
 
 void MX_USART2_UART_Init(void)
 {
@@ -86,7 +84,6 @@ void MX_USART2_UART_Init(void)
   HAL_UART_Init(&huart2);
 
 }
-/* USART3 init function */
 
 void MX_USART3_UART_Init(void)
 {
